@@ -33,8 +33,10 @@ module.exports = {
                 loader: "sass-loader"
             }]
         }, {
-            test: /\.json$/,
-            loader: 'json-loader'
+            test: /\.(json)$/,
+            exclude: /node_modules/,
+            loader: 'json-loader',
+            type: 'javascript/auto'
         }
         ]
     },

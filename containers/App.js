@@ -17,7 +17,7 @@ class App extends Component {
             <h1>My App</h1>
             <p>Welcome to my site</p>
             <InputPreview value={message} onChange={this._onChange}/>
-            <Link to="/about"><button>View a random site!</button></Link>
+            <Link to="/wieliczka-salt-mines"><button>View a random site!</button></Link>
         </div>
     }
 }

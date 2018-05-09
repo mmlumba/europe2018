@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default class App extends Component {
     render() {
         return <nav className="navbar navbar-expand-sm navbar-light bg-light">
-            <Link to="/" className="navbar-brand">My App</Link>
+            <Link to="/" className="navbar-brand">Europe 2018</Link>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
@@ -15,10 +15,17 @@ export default class App extends Component {
                             List of Sites
                     </a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <Link to="/auschwitz" className="dropdown-item">Auschwitz-Birkenau</Link>
+                            <Link to="/budapest" className="dropdown-item">Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue</Link>
+                            <Link to="/krakow" className="dropdown-item">Historic Centre of Krakow</Link>
+                            <Link to="/potsdam-berlin" className="dropdown-item">Palaces and Parks of Potsdam and Berlin</Link>
                             <Link to="/prague" className="dropdown-item">Historic Centre of Prague</Link>
+                            <Link to="/salzburg" className="dropdown-item">Historic Centre of the City of Salzburg</Link>
+                            <Link to="/schonbrunn" className="dropdown-item">Palace and Gardens of Schönbrunn</Link>
+                            <Link to="/telc" className="dropdown-item">Historic Centre of Telc</Link>
                             <Link to="/vienna" className="dropdown-item">Historic Centre of Vienna</Link>
+                            <Link to="/warsaw" className="dropdown-item">Historic Centre of Warsaw</Link>
                             <Link to="/wieliczka-salt-mines" className="dropdown-item">Wieliczka Salt Mines</Link>
-                            <a className="dropdown-item" href="#">Site 3</a>
                         </div>
                     </li>
                 </ul>

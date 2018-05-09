@@ -1,25 +1,17 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar'
-import InputPreview from '../components/InputPreview'
-import { connect } from 'react-redux';
-import { setMessage } from '../actions/message';
 import { Link } from 'react-router-dom';
 
 class App extends Component {
-    _onChange = (value) => {
-        this.props.dispatch(setMessage(value))
-    }
-
     render() {
-        const {message} = this.props.messageReducer;
         return <div className="container">
             <NavBar />
-            <h1>My App</h1>
-            <p>Welcome to my site</p>
-            <InputPreview value={message} onChange={this._onChange}/>
-            <Link to="/wieliczka-salt-mines"><button>View a random site!</button></Link>
+            <h1>Europe 2018</h1>
+            <p>This is a small informational site that shows all the UNESCO heritage sites I visited on my vacation in April 2018.
+                This website is built with React and React Router. To view a list of all the sites select the "List of Sites" dropdown and click on any link to view information on a particular site.
+            </p>
         </div>
     }
 }
 
-export default connect(state => state)(App);
+export default App;

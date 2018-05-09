@@ -15,8 +15,9 @@ export default class App extends Component {
                             List of Sites
                     </a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a className="dropdown-item" href="#">Site 1</a>
-                            <a className="dropdown-item" href="#">Site 2</a>
+                            <Link to="/prague" className="dropdown-item">Historic Centre of Prague</Link>
+                            <Link to="/vienna" className="dropdown-item">Historic Centre of Vienna</Link>
+                            <Link to="/wieliczka-salt-mines" className="dropdown-item">Wieliczka Salt Mines</Link>
                             <a className="dropdown-item" href="#">Site 3</a>
                         </div>
                     </li>

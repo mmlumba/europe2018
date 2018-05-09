@@ -12,7 +12,7 @@ class App extends Component {
 
     render() {
         const {message} = this.props.messageReducer;
-        return <div>
+        return <div className="container">
             <NavBar />
             <h1>My App</h1>
             <p>Welcome to my site</p>

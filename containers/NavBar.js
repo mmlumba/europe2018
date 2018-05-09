@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 export default class App extends Component {
     render() {
-        return <nav className="navbar navbar-expand-sm navbar-light bg-light">
+        return <nav className="navbar navbar-expand-sm navbar-light navbar-custom">
             <Link to="/" className="navbar-brand">Europe 2018</Link>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                        <Link to="/" className="nav-link">Home <span className="sr-only">(current)</span></Link>
+                        <Link to="/" className="nav-link">Home</Link>
                     </li>
                     <li className="nav-item dropdown my-2 my-sm-0">
                         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -26,11 +26,11 @@ export default class SiteTemplate extends React.Component {
         let someSite = this.selectSite(this.props.siteUniqueNumber);
 
         return(
-            <div className="container">
+            <div className="container-fluid">
                 <NavBar />
-                <h2 ref={this.titleRef}></h2>
+                <h2 ref={this.titleRef} className="mt-3"></h2>
                 <div class="row">
-                    <div className="formatSiteInformation col-8">
+                    <div className="formatSiteInformation col-8 mt-2">
                         <span ref={this.shortDescRef}></span>
                         <p>Country: {someSite.states_name_en}</p>
                         <p>Date Inscribed: {someSite.date_inscribed}</p>

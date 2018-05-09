@@ -1,1 +1,25 @@
 @import "~bootstrap/scss/bootstrap";
+
+html, #app {
+    background-color: #fff;
+}
+
+.container {
+    background-color: #f7f5f1;
+}
+
+h1,
+h2,
+h3,
+h4,
+.navbar-brand {
+    color: #472400;
+}
+
+p {
+    color: #472427;
+}
+
+.navbar-custom {
+    background-color: #F7DFD4;
+}

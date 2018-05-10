@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import SiteJson from '../output.json';
 import NavBar from './NavBar';
+import Images from '../components/Images';
 
 export default class SiteTemplate extends React.Component {
     constructor(props){
@@ -34,17 +35,14 @@ export default class SiteTemplate extends React.Component {
                 <NavBar />
                 <h2 ref={this.titleRef} className="mt-3"></h2>
                 <div class="row">
-                    <div className="col-8 mt-2">
+                    <div className="mt-2 p-3">
                         <span ref={this.shortDescRef}></span>
                         <p>Country: {someSite.states_name_en}</p>
                         <p>Date Inscribed: {someSite.date_inscribed}</p>
                     </div>
-                    <div className="col-4">
-                        <h4>Site Map</h4>
-                        <div className="show-site-map"></div>
-                    </div>
                 </div>
                 <h3>Pictures</h3>
+                <Images name={this.props.name} picLength={this.props.length} />
             </div>
         )
     }

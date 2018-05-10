@@ -13,7 +13,6 @@ export default () => {
                 <Route exact path="/krakow" render={(props) => (<SiteTemplate siteUniqueNumber={1739} {...props} />)} />
                 <Route exact path="/potsdam-berlin" render={(props) => (<SiteTemplate siteUniqueNumber={624} {...props} />)} />
                 <Route exact path="/prague" render={(props) => (<SiteTemplate siteUniqueNumber={1928} {...props} />)} />
-                <Route exact path="/salzburg" render={(props) => (<SiteTemplate siteUniqueNumber={927} {...props} />)} />
                 <Route exact path="/schonbrunn" render={(props) => (<SiteTemplate siteUniqueNumber={929} {...props} />)} />
                 <Route exact path="/telc" render={(props) => (<SiteTemplate siteUniqueNumber={738} {...props} />)} />
                 <Route exact path="/vienna" render={(props) => (<SiteTemplate siteUniqueNumber={1206} {...props}/>)} />

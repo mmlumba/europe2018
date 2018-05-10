@@ -20,7 +20,6 @@ export default class App extends Component {
                             <Link to="/krakow" className="dropdown-item">Historic Centre of Krakow</Link>
                             <Link to="/potsdam-berlin" className="dropdown-item">Palaces and Parks of Potsdam and Berlin</Link>
                             <Link to="/prague" className="dropdown-item">Historic Centre of Prague</Link>
-                            <Link to="/salzburg" className="dropdown-item">Historic Centre of the City of Salzburg</Link>
                             <Link to="/schonbrunn" className="dropdown-item">Palace and Gardens of Schönbrunn</Link>
                             <Link to="/telc" className="dropdown-item">Historic Centre of Telc</Link>
                             <Link to="/vienna" className="dropdown-item">Historic Centre of Vienna</Link>

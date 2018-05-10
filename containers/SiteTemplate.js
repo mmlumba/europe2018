@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
 import SiteJson from '../output.json';
-import NavBar from './NavBar';
+import NavBar from '../components/NavBar';
 import Images from '../components/Images';
 
 export default class SiteTemplate extends React.Component {
@@ -46,4 +47,10 @@ export default class SiteTemplate extends React.Component {
             </div>
         )
     }
+}
+
+SiteTemplate.proptypes = {
+    length: PropTypes.number,
+    name: PropTypes.string,
+    siteUniqueNumber: PropTypes.number
 }

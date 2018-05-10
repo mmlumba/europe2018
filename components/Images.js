@@ -1,6 +1,7 @@
 // Most image handlers taken from here: https://github.com/jossmac/react-images
 
 import React from 'react';
+import PropTypes from 'prop-types';
 import Lightbox from 'react-images';
 
 export default class Images extends React.Component {
@@ -88,4 +89,9 @@ export default class Images extends React.Component {
             </div>
         );
     }
+}
+
+Images.proptypes = {
+    length: PropTypes.number,
+    name: PropTypes.string
 }

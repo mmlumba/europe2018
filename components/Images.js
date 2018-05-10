@@ -61,10 +61,10 @@ export default class Images extends React.Component {
     render() {
         const {
             name,
-            picLength
+            picsLength
         } = this.props;
 
-        const listImages = this.imagesArray(name, picLength)
+        const listImages = this.imagesArray(name, picsLength)
 
         return (
             <div>
@@ -92,6 +92,6 @@ export default class Images extends React.Component {
 }
 
 Images.proptypes = {
-    length: PropTypes.number,
+    picsLength: PropTypes.number,
     name: PropTypes.string
 }

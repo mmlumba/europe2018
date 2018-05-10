@@ -43,14 +43,14 @@ export default class SiteTemplate extends React.Component {
                     </div>
                 </div>
                 <h3>Pictures</h3>
-                <Images name={this.props.name} picLength={this.props.length} />
+                <Images name={this.props.name} picsLength={this.props.length} />
             </div>
         )
     }
 }
 
 SiteTemplate.proptypes = {
-    length: PropTypes.number,
+    picsLength: PropTypes.number,
     name: PropTypes.string,
     siteUniqueNumber: PropTypes.number
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Link} from 'react-router-dom';
 import SiteJson from '../output.json';
 import NavBar from '../components/NavBar';
 import Images from '../components/Images';
@@ -35,8 +34,8 @@ export default class SiteTemplate extends React.Component {
             <div className="container-fluid">
                 <NavBar />
                 <h2 ref={this.titleRef} className="mt-3"></h2>
-                <div class="row">
-                    <div className="mt-2 p-3">
+                <div className="row">
+                    <div className="mt-2 p-3" id="site-description">
                         <span ref={this.shortDescRef}></span>
                         <p>Country: {someSite.states_name_en}</p>
                         <p>Date Inscribed: {someSite.date_inscribed}</p>

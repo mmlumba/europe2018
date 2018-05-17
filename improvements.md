@@ -8,3 +8,4 @@ This is a list of what I would improve for the code and other enhancements given
    * Using `mount()` helps in testing functions located in lifecycle methods such as `componentDidMount` and `componentDidUpdate` to ensure the correct output is rendered at the correct time
     * Would like to use this to test `SiteTemplate.js`
 * (feature) Add map for all the locations
+* Rotate pictures in correct orientations :)

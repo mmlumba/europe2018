@@ -12,4 +12,4 @@ A repo showing all the UNESCO world heritage sites I visited using the [UNESCO a
 1. Run `npm test` in root of repo
 
 ## App preview
-![preview of the app](europe2018gif.gif)
+![preview of the app](https://s3.us-east-2.amazonaws.com/mlsideprojects/europe2018gif.gif)

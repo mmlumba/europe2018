@@ -7,3 +7,6 @@ A repo showing all the UNESCO world heritage sites I visited using the [UNESCO a
 3. Run `npm install`
 4. Run `npm run dev`
 5. Visit `localhost:8080` in your browser
+
+## To test
+1. Run `npm test` in root of repo

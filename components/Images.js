@@ -67,7 +67,7 @@ export default class Images extends React.Component {
         const listImages = this.imagesArray(name, picsLength)
 
         return (
-            <div>
+            <div className="image-list">
                 {
                     listImages.map((image, i) => {
                         return <a href={image.src} key={i} onClick={(e) => this.openLightbox(i, e)}>
